@@ -1,0 +1,92 @@
+body {
+    background-image: url("img/tema.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: lightyellow;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgb(126, 96, 20);
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 30px;
+    color: darkred;
+}
+
+.cookie {
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cookie:hover {
+    transition: 1s;
+    background-color: rgb(126, 96, 20);
+    color: lightyellow;
+    transform: scale(1.3);
+}
+
+.cookie:active {
+    transform: scale(0.9);
+}
+
+.upgrade {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.upgrade:hover {
+    transition: 1s;
+    background-color: rgb(226, 187, 88);
+    color: rgb(14, 137, 146);
+    transform: scale(1.1);
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.strongClick {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.strongClick:hover {
+    background-color: rgb(226, 187, 88);
+    color: rgb(23, 14, 146);
+    transform: scale(1.3);
+    padding: 10px;
+    margin: 10px;
+    transform: scale(1.05);
+}
+
+.clickValue {
+     margin-top: 40px;
+    font-size: 30px;
+    color: darkred;
+
+};
+
+p {
+    margin-top: 40px;
+    font-size: 30px;
+    color: rgb(0, 139, 23);
+}
+
+
