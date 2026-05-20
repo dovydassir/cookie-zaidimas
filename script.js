@@ -1,11 +1,18 @@
 
 let cookies = 0;
+const musicBtn = document.querySelector('.musicBtn');
+const music = new Audio("sound/logo.mp3 ");
+
+
 
 const cookiesCount = document.querySelector('.cookies');
 const cookiebtn = document.querySelector('.cookie');
 const upgrades = document.querySelectorAll('.upgrade');
 const strongClick = document.querySelector('.strongClick');
 const clickValue = document.querySelector('.clickValue');
+const resetBtn = document.querySelector('.resetBtn');
+
+
 
 let autoClick = 0;
 let clickPower = 1;
@@ -46,6 +53,22 @@ strongClick.addEventListener("click", () => {
     
     }
 });
+
+
+resetBtn.addEventListener("click", () => {
+    cookies = 0;
+    autoClick = 0;
+    clickPower = 1;
+    cookiesCount.textContent = cookies;
+    clickValue.textContent = clickPower;
+});
+
+musicBtn.addEventListener("click", () => {
+    music.play();
+});
+
+
+
 
 setInterval(() => {
     cookies = cookies + autoClick;
