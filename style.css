@@ -140,11 +140,18 @@ h2 {
 }
 .musicBtn:hover {
     transform: scale(1.05);
-
-
-p {
-    margin-top: 40px;
-    font-size: 30px;
 }
 
-
+.themeBtn {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+.themeBtn:hover {
+    transform: scale(1.05);
+}
